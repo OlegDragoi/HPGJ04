@@ -1,0 +1,5 @@
+answer_1 = "plan"
+answer_2 = "object"
+answer_3 = "while"
+answer_4 = "using meta-argument"
+answer_5 = "using the -var flag"
