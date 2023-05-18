@@ -5,3 +5,7 @@ output "file_content_md5" {
 output "custom" {
   value = "something"
 }
+
+output "read-output" {
+  value = "read output"
+}
