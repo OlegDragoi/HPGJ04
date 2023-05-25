@@ -5,7 +5,9 @@ module "HPGJ04-files" {
 }
 
 module "HPGJ04-read" {
-  source  = "./modules/read"
+  source   = "./modules/read"
+
+  r_output = module.HPGJ04-files.local_file.read-output
   #content = "test"
   #name    = "Task 2"
 }
