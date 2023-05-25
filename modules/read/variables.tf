@@ -1,5 +1,5 @@
 variable "out_value" {
   description = "A number value"
-  type        = number
+  type        = string
   default     = 0
 }
