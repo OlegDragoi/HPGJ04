@@ -7,7 +7,7 @@ module "HPGJ04-files" {
 module "HPGJ04-read" {
   source   = "./modules/read"
 
-  out_value = module.HPGJ04-files.read-output
+  out_value = module.HPGJ04-files.local_file.read-output
   #content = "test"
   #name    = "Task 2"
 }
