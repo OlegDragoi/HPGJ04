@@ -1,3 +1,3 @@
 output "r_output" {
-  value = var.out_value
+  value = local_file.out_value
 }
