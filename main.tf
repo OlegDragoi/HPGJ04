@@ -6,8 +6,8 @@ module "HPGJ04-files" {
 
 module "HPGJ04-read" {
   source  = "./modules/read"
-  content = "test"
-  name    = "Task 2"
+  #content = "test"
+  #name    = "Task 2"
 }
 
 module "HPGJ04-write" {
